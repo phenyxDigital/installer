@@ -1,7 +1,7 @@
 {
-    "name": "phenyxdigitale/digitalinstaller",
+    "name": "phenyxdigitale/installer",
     "description": "Install Ephenyx Digital Core",  
-    "homepage": "https://github.com/phenyxDigitale/digitalinstaller",
+    "homepage": "https://github.com/phenyxDigitale/installer",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -19,7 +19,7 @@
         "pear/archive_tar": "^1.4"
     },  
 	"autoload": {
-		"classmap": {"digitalInstaller": "src/"},
+		"classmap": {"installer": "src/"},
         "files": ["digitalcore.composer.php"]
 	}
 }
